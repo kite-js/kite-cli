@@ -1,11 +1,11 @@
 {
-  "name": "kite-cli",
+  "name": "kite-tools",
   "version": "0.1.0",
   "description": "command line tools for creating Kite applications",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kite-js/kite-cli.git"
+    "url": "git+https://github.com/kite-js/kite-tools.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,8 +22,8 @@
     "make-dir": "^1.0.0"
   },
   "bugs": {
-    "url": "https://github.com/kite-js/kite-cli/issues"
+    "url": "https://github.com/kite-js/kite-tools/issues"
   },
-  "homepage": "https://github.com/kite-js/kite-cli#readme",
+  "homepage": "https://github.com/kite-js/kite-tools#readme",
   "devDependencies": {}
 }

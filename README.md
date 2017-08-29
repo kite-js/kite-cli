@@ -7,7 +7,7 @@ and some basic files for developing Kite application.
 # Installation
 
 ```sh
-npm install kite-cli
+npm install kite-tools
 ```
 
 # Usage
