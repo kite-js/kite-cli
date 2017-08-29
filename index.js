@@ -149,7 +149,7 @@ function wizard() {
         if(package.dependencies && package.dependencies['kite-framework']) {
             console.log('Kite project initialization finished \n');
         } else {
-            console.log('Kite project initialization finished, ** please run the following command to install dependencies **\n');
+            console.log('Kite project initialization finished, ** please run following commands to install dependencies **\n');
             console.log('npm install kite-framework --save \n');
         }
 
