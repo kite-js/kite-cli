@@ -1,0 +1,29 @@
+{
+  "name": "kite-cli",
+  "version": "0.1.0",
+  "description": "command line tools for creating Kite applications",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kite-js/kite-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "kite": "index.js"
+  },
+  "author": "Arthur Xie",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.11.0",
+    "make-dir": "^1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/kite-js/kite-cli/issues"
+  },
+  "homepage": "https://github.com/kite-js/kite-cli#readme",
+  "devDependencies": {}
+}
