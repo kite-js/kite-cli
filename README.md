@@ -1,5 +1,5 @@
 # kite-cli
-Command line tools for creating Kite applications.
+Command line tools for creating [Kite](https://github.com/kite-js/kite) applications.
 
 This tool initialize a folder with TypeScript configuration file `tsconfig.json`
 and some basic files for developing Kite application.
