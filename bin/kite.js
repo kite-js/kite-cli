@@ -212,7 +212,8 @@ async function createModule(moduleName, type) {
     if (basename.endsWith('.ts')) {
         basename = basename.substr(0, basename.length - 3);
     } else {
-        filename += '.' + type + '.ts';
+        let ext = type === 'controller' ? '' : type;
+        filename += '.' + ext + '.ts';
     }
 
     if (!basename) {
