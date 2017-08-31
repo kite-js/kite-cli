@@ -28,7 +28,7 @@ npm init
 3. Run Kite command line tools and follow the prompt to initialize Kite project:
 
 ```sh
-kite
+kite init
 ```
 
 For using everything with default, simply press `enter` key to walk through the wizard.
@@ -41,6 +41,26 @@ above steps, so compile and run this application:
 ```sh
 tsc
 node dist/app.server.js
+```
+
+5. Create Kite modules
+
+create a controller as file "src/controllers/user/login.controller.ts":
+
+```sh
+kite -a user/login
+```
+
+create a service as file "src/services/user.service.ts":
+
+```sh
+kite -s user
+```
+
+create model as file "src/models/user.model.ts":
+
+```sh
+kite -m user
 ```
 
 please note that entry point "dist/app.server.js" is the default setting, 

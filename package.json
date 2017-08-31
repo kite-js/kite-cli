@@ -1,8 +1,8 @@
 {
   "name": "kite-tools",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "command line tools for creating Kite applications",
-  "main": "index.js",
+  "main": "bin/kite.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kite-js/kite-tools.git"
@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "kite": "index.js"
+    "kite": "bin/kite.js"
   },
   "author": "Arthur Xie",
   "license": "MIT",
