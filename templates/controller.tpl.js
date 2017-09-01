@@ -1,5 +1,5 @@
 exports.template = `
-import { Controller, Entry, KiteError } from 'kite-framework';
+import { Controller, Entry, KiteError, Inject } from 'kite-framework';
 
 @Controller()
 export class $NAME$Controller {
