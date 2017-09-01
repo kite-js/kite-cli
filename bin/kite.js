@@ -212,17 +212,11 @@ async function createModule(moduleName, type) {
     if (basename.endsWith('.ts')) {
         basename = basename.substr(0, basename.length - 3);
     } else {
-        let ext = type === 'controller' ? '' : '.' + type;
-        filename += ext + '.ts';
+        filename += '.' + type + '.ts';
     }
 
-    if (!basename) {
-        console.log(`${type} name can not be empty!`);
-        process.exit(1);
-    }
-
-    if (!/^[a-zA-Z_\$][a-zA-Z_\$\d]*$/.test(basename)) {
-        console.log(`${type} name must starts with alphabeds or "_" or "$"`);
+    if (!/^[a-z]([a-z\-_\$\d]*\.)*[a-z\-_\$\d]+$/i.test(basename)) {
+        console.log(`invalid ${type} name`);
         process.exit(1);
     }
 
@@ -234,8 +228,7 @@ async function createModule(moduleName, type) {
 
     await makedir(path.dirname(filename));
 
-
-    basename = basename.replace(/^([a-zA-Z])/, (ch) => ch.toUpperCase());
+    basename = basename.replace(/(^[a-z])|(\.[a-z])|(\-[a-z])|(_[a-z])/g, (ch) => ch.toUpperCase()).replace(/[\.\$\-\_]/g, '');
     let code = require(`../templates/${type}.tpl.js`).template.replace('$NAME$', basename);
     fs.writeFileSync(filename, code);
     console.log(`${type} "${basename}" is successfully created:`, path.relative(process.cwd(), filename));
