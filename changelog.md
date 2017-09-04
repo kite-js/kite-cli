@@ -1,3 +1,8 @@
+# ver 0.2.4 (2017-09-04)
+- changed the template of "kite.config.js"
+
+# ver 0.2.3 (2017-09-01)
+- add "Inject" as default import for controller template
 
 # ver 0.2.2 (2017-09-01)
 - change controller file name surfix from ".ts" to ".controller.ts"
