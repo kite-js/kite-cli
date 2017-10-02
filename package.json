@@ -1,6 +1,6 @@
 {
   "name": "kite-tools",
-  "version": "0.2.5",
+  "version": "0.3.0",
   "description": "command line tools for creating Kite applications",
   "main": "bin/kite.js",
   "repository": {

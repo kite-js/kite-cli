@@ -1,3 +1,7 @@
+# ver 0.3.0 (2017-10-02)
+- configuration file "kite-cli.config.js" now is supported
+- user can modify templates in "kite-cli.config.js"
+
 # ver 0.2.4 (2017-09-04)
 - changed the template of "kite.config.js"
 
