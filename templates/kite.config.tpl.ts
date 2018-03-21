@@ -4,7 +4,5 @@ import * as path from 'path';
 
 export const kiteConfig: Config = {
     errors: errors,
-    hostname: '$hostname$',
-    port: $port$,
     router: HttpRouterProvider(path.join(__dirname, 'controllers'), '.controller.js'),
 };
