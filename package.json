@@ -1,6 +1,6 @@
 {
   "name": "kite-tools",
-  "version": "0.4.0",
+  "version": "0.4.2",
   "description": "command line tools for creating Kite applications",
   "main": "bin/kite.js",
   "repository": {
@@ -8,7 +8,8 @@
     "url": "git+https://github.com/kite-js/kite-tools.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub": "npm publish --registry=https://registry.npmjs.org"
   },
   "bin": {
     "kite": "bin/kite.js"

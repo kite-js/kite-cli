@@ -1,3 +1,11 @@
+# ver 0.4.1 (2018-03-21)
+- add '--yes' option to '-p' and '-i', create / init project without questioning
+
+# ver 0.4.0 (2018-03-21)
+- meet Kite framework 0.5.x changing:
+  * templates is customizable
+- add __-p, create-project__ option, now supports create and init Kite projects
+
 # ver 0.3.0 (2017-10-02)
 - configuration file "kite-cli.config.js" now is supported
 - user can modify templates in "kite-cli.config.js"

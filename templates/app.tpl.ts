@@ -1,5 +1,5 @@
 import { Kite } from 'kite-framework';
 
-Kite.init('./kite.config')
+new Kite('./kite.config')
     .watch()
     .fly($port$, '$hostname$');
