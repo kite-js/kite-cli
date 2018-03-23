@@ -1,3 +1,6 @@
+# ver 0.4.2 (2018-03-23)
+- app template bug fixed
+
 # ver 0.4.1 (2018-03-21)
 - add '--yes' option to '-p' and '-i', create / init project without questioning
 
