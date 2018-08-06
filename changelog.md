@@ -1,4 +1,7 @@
 # ver 0.4.3 (2018-08-06)
+- kite-cli.config.js gengeration bug fixed
+
+# ver 0.4.3 (2018-08-06)
 - source template resolving enhanced, resolves "~/somepath" to a relative path like "../somepath" base on module path
 - source template resolving bug fixed
 
