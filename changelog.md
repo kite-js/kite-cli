@@ -1,4 +1,7 @@
-# ver 0.4.3 (2018-08-06)
+# ver 0.4.5 (2018-08-06)
+- [fixed] `kite init` can not init a project
+
+# ver 0.4.4 (2018-08-06)
 - kite-cli.config.js gengeration bug fixed
 
 # ver 0.4.3 (2018-08-06)
